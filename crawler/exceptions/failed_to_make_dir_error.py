@@ -1,0 +1,2 @@
+class FailedToMakeDirError(Exception):
+    pass

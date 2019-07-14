@@ -1,0 +1,2 @@
+class SiteUnreachableError(Exception):
+    pass

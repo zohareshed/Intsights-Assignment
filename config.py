@@ -1,10 +1,9 @@
 RECENT_PASTES_URL = "/archive"
-ROOT_DIRECTORY = "C:/Code/Pastes"
 MAIN_LOOP_RUNNING_INTERVAL_IN_SECONDS = 120.0
 HTTP_REQUEST_INTERVAL_IN_SECONDS = 1
 GUEST_AUTHOR = "A GUEST"
 PASTE_DATE_FORMAT = "%b %dth, %Y"
-LOGGING_FORMAT = '%(asctime)s  %(levelname)-10s %(name)s %(message)s'
+LOGGING_FORMAT = '%(asctime)s  %(levelname)s %(name)-10s %(message)s'
 
 
 class HtmlXPaths:

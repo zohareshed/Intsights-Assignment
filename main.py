@@ -13,5 +13,10 @@ if __name__ == '__main__':
     handler.setFormatter(formatter)
     root_logger.addHandler(handler)
 
-    cr = Crawler("https://pastebin.com")
+    try:
+        root_directory = sys.argv[1]
+    except IndexError:
+        print("Please add a root directory: main.py <root_directory>")
+        sys.exit(1)
+    cr = Crawler("https://pastebin.com", root_directory)
     cr.run()
