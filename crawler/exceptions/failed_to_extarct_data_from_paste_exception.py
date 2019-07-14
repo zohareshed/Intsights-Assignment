@@ -1,0 +1,2 @@
+class FailedToExtractDataFromPasteException(Exception):
+    pass
